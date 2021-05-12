@@ -20,7 +20,7 @@ The package is dependent on `ghostscript`
 
 ## Public methods
 
-#### extractImage(string $pdf, string $image, int $page = 1, bool $silent = FALSE) : bool
+#### public static extractImage(string $pdf, string $image, int $page = 1, bool $silent = FALSE) : bool
 ```PHP
 // Creates an image from the first page of the pdf file 
 // and returns `TRUE` or FALSE or throws an exception 
@@ -35,7 +35,7 @@ $thumbnailCreated = Piima::extractImage($pdf, $image, 5);
 $thumbnailCreated = Piima::extractImage($pdf, $image, 5, TRUE);
 ```
 
-#### calculateTotalPages(string $pdf, bool $silent = FALSE): int
+#### public static calculateTotalPages(string $pdf, bool $silent = FALSE): int
 ```PHP
 // Calculates total page of PDF file as an integer
 // and returns it or throws an exception
