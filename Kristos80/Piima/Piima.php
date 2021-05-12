@@ -32,25 +32,27 @@ final class Piima {
 	/**
 	 * @var string
 	 */
-	private const COMMAND_EXTRACT_IMAGE = '%s
-											-dNOPAUSE
-											-dDownsampleColorImages=true
-											-dColorImageDownsampleThreshold=1.0
-											-dBATCH
-											-sDEVICE=png16m
-											-dFirstPage=%s
-											-dLastPage=%s
-											-sOutputFile=%s
-											%s';
+	private const COMMAND_EXTRACT_IMAGE = '
+	%s
+	-dNOPAUSE
+	-dDownsampleColorImages=true
+	-dColorImageDownsampleThreshold=1.0
+	-dBATCH
+	-sDEVICE=png16m
+	-dFirstPage=%s
+	-dLastPage=%s
+	-sOutputFile=%s
+	%s';
 
 	/**
 	 * @var string
 	 */
-	private const COMMAND_CALCULATE_TOTAL_PAGES = '%s
-													-q 
-													-dNODISPLAY 
-													-dNOSAFER
-													-c "(%s) (r) file runpdfbegin pdfpagecount = quit"';
+	private const COMMAND_CALCULATE_TOTAL_PAGES = '
+	%s
+	-q 
+	-dNODISPLAY 
+	-dNOSAFER
+	-c "(%s) (r) file runpdfbegin pdfpagecount = quit"';
 
 	/**
 	 * @param string $pdf
@@ -133,6 +135,6 @@ final class Piima {
 	 * @return string
 	 */
 	private static function trim(string $string): string {
-		return preg_replace('/\s+/', ' ', $string);
+		return preg_replace('/\s+/', ' ', trim($string));
 	}
 }
