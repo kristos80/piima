@@ -8,7 +8,12 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba43186b78cd43729692f233847a7d4d)](https://app.codacy.com/gh/kristos80/piima?utm_source=github.com&utm_medium=referral&utm_content=kristos80/piima&utm_campaign=Badge_Grade_Settings)
 
 # Piima
-A, really, simple utility for working with PDF files
+A, really, simple utility for working with PDF files.  
+   
+For now it can do 2 distinct things (see public methods):
+
+1. Convert any page of a PDF file to an image
+2. Calculate the total pages of a PDF file
 
 ## Dependencies
 The package is dependent on `ghostscript` 
