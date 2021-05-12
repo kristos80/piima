@@ -1,7 +1,7 @@
 {
 	"name": "kristos80/piima",
 	"description": "A, really, simple utility for working with PDF files",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"license" : "MIT",
 	"require": {
 		"mikehaertl/php-shellcommand": "^1.6"
