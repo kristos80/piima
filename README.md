@@ -1,3 +1,9 @@
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kristos80_piima)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=kristos80_piima)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=security_rating)](https://sonarcloud.io/dashboard?id=kristos80_piima)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=kristos80_piima)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=bugs)](https://sonarcloud.io/dashboard?id=kristos80_piima)
+
 # Piima
 A, really, simple utility for working with PDF files
 
