@@ -1,0 +1,13 @@
+{
+	"name": "kristos80/piima",
+	"description": "A, really, simple utitlity for working with PDF files",
+	"version": "1.0.0",
+	"require": {
+		"mikehaertl/php-shellcommand": "^1.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Kristos80\\Piima\\": "Kristos80/Piima/"
+		}
+	}
+}
