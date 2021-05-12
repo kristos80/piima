@@ -1,4 +1,3 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba43186b78cd43729692f233847a7d4d)](https://app.codacy.com/gh/kristos80/piima?utm_source=github.com&utm_medium=referral&utm_content=kristos80/piima&utm_campaign=Badge_Grade_Settings)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=kristos80_piima)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=kristos80_piima)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=security_rating)](https://sonarcloud.io/dashboard?id=kristos80_piima)
@@ -6,6 +5,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=kristos80_piima&metric=bugs)](https://sonarcloud.io/dashboard?id=kristos80_piima)
 [![CodeScene Code Health](https://codescene.io/projects/15605/status-badges/code-health)](https://codescene.io/projects/15605) 
 [![CodeScene System Mastery](https://codescene.io/projects/15605/status-badges/system-mastery)](https://codescene.io/projects/15605)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba43186b78cd43729692f233847a7d4d)](https://app.codacy.com/gh/kristos80/piima?utm_source=github.com&utm_medium=referral&utm_content=kristos80/piima&utm_campaign=Badge_Grade_Settings)
 
 # Piima
 A, really, simple utility for working with PDF files
